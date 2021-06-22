@@ -1,4 +1,12 @@
-*La version française suit.*
+# Notes on github GPSPACE release
+
+The original repository at https://github.com/CGS-GIS/GPSPACE seems incomplete. Missing files relate to IERS2010 code available as 'external_sources' from e.g. https://github.com/HugoValcourt/GPSPACE/releases/tag/v1.10-beta
+
+These external_sources files are placed in the IERS2 directory.
+
+With these additions the gpspace.f code compiles with the command:
+
+'gfortran -finit-local-zero -O2 -o gpspace gpspace.f */*.F'
 
 # GPSPACE software
 
