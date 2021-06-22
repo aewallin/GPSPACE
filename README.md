@@ -6,7 +6,7 @@ These external_sources files are placed in the IERS2 directory.
 
 With these additions the gpspace.f code compiles with the command:
 
-'gfortran -finit-local-zero -O2 -o gpspace gpspace.f */*.F'
+`gfortran -finit-local-zero -O2 -o gpspace gpspace.f */*.F`
 
 # GPSPACE software
 
