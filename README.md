@@ -8,6 +8,8 @@ With these additions the gpspace.f code compiles with the command:
 
 `gfortran -finit-local-zero -O2 -o gpspace gpspace.f */*.F`
 
+The original repository had svb-files with data until 2018. This repo has updated gps, gnss, gln svb-files with data until 2021.
+
 # GPSPACE software
 
 ## Introduction
