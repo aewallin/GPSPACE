@@ -1,3 +1,10 @@
+Update 2021 June:
+a new file IGRF13.F is available from https://www.ngdc.noaa.gov/IAGA/vmod/igrf.html
+
+For GPSPACE this could would need to be modified into the same format as IGRF12.F
+providing a igrf12syn() subroutine.
+
+
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
 The source files in this directory were downloaded from the IGRF web site:
