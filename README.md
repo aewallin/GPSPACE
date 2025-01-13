@@ -18,6 +18,9 @@ The GPSPACE software was developed in the Fortran programming language and used 
 
 CGS released GPSPACE by posting the software and related configuration files along with test cases results as an archived repository on github.com. As an archived repository, it is not possible to update its content and pull requests will fail, but it is still possible to fork and modify its content as per the Licence terms, if anyone or any group is interested. CGS has no intention to support the application in the future, either through updates to the source code, or by adding documentation or test cases.
 
+NOTE: THIRD PARTY SOFTWARE FROM IERS AND IGRF ARE PROVIDED FOR CONVENIENCE AND
+RETAIN THEIR DISTRIBUTION RIGHTS.
+
 ## Precise Point Positioning
 
 Precise Point Positioning is a processing methodology that combines Global Navigation Satellite Systems (GNSS) data collected on the ground, in air or in space, with precise GNSS satellite data products (positions and clock states) to generate positions of high precision. Factors such as the quality of GNSS data products, length of observation sessions, type of data collected, type of receiving hardware and conditions of collection will affect the quality of computed positions.
@@ -69,6 +72,8 @@ Copyright (c) 2018 Government of Canada. Under MIT Licence terms
 Le logiciel GPSPACE a été développé en langage Fortran et utilisé opérationnellement aux Levés géodésiques du Canada (LGC) des années 90 à août 2018. Depuis 2003 le logiciel opérait en arrière-scène du service en-ligne CSRS-PPP offert par les LGC. En août 2018, GPSPACE a été remplacé par un nouveau logiciel plus aisé à maintenir et offrant de meilleures performances et les LGC ont décidé de cesser le support de GPSPACE. Au cours des années un certain nombre d'organisations et d'individus ont obtenu une Licence limitée d'utilisation du code source. Les LGC ont choisi de publier le logiciel sous License de type MIT.
 
 Les LGC ont publié GPSPACE en déposant le code source et ses fichiers de configuration ainsi que les résultats de traitement de cas types en tant que répertoire archivé (archived repository) sur github.com. En tant que répertoire archivé, il n'est pas possible de le mettre à jour et les requêtes d'ajout (pull requests) échoueront, mais il est possible le copier (fork) et modifier selon les termes de la Licence, si quelqu'un ou quelque groupe est intéressé. À l'avenir, les LGC n'ont pas l'intention d'offrir quelque support que ce soit pour le logiciel, ni mise-à-jour du code source, ni ajout de documentation ou modification des cas types.
+
+NOTE: LES SOURCES PROVENANT DE TIERS (IERS ET IGRF) SONT INCLUSES POUR PLUS DE COMMODITE. ELLES CONSERVENT LEUR DROITS DE DISTRIBUTION.
 
 ## Positionnement Ponctuel Précis
 

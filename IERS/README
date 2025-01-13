@@ -2,18 +2,21 @@
 
 The source files in this directory were downloaded from the IERS conventions
 center:
-        http://iers-conventions.obspm.fr/2010officialinfo.php
-        http://maia.usno.navy.mil/conventions/2010officialinfo.php
+        iers-conventions.obspm.fr/conventions_versions.php  (v1.3.0)
 
-Chap7 and Chap9 directories contain the original files and are copied to this
-(IERS) directory unchanged, with the exception of: OLOADN.F, which is a
-modification of the Chap7/HARDISP.F program, converting it to a subroutine
-usable in GPSPACE, and GPT2.F, where the file open/close is managed externally.
+IERS_v1_1_0 and IERS_v1_3_0 contain the original files and are linked to this
+(IERS) directory unchanged, with the exception of:
+ OLOADN.F          which is a modification of the Chap7/HARDISP.F program,
+                   converting it to a subroutine usable in GPSPACE
+ GPT2.F            where the file open/close is managed externally.
+ DEHANTTIDEINEL.F  changed to properly call iau_DAT and iau_CAL2JD
+ IERS_CMP_2015.F   conserved from earlier version (v1.1.0) of the mean pole computation
+		   by default GPSPACE uses the new secular pole definition
 
-Subroutine DEHANTTIDEINEL is called from bodyt.f to compute earth tides.
+Subroutine DEHANTTIDEINEL is called from bodyt.f to comZZpute earth tides.
 Subroutine OLOADN is called from gpsppp.f to compute ocean tide loading.
 Subroutine IERS_CMP_2015 is called from rderp.f to compute mean pole and
-associated pole tide.
+associated pole tide (if rderp si modified accordingly).
 
 For tropospheric mapping and delay initialization,
 - subroutine GMF is called from gpsppp.f
