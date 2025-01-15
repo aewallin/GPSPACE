@@ -1,4 +1,4 @@
-      PROGRAM IGRF14
+C      PROGRAM IGRF14
 C
 C     This is a program for synthesising geomagnetic field values from the 
 C     International Geomagnetic Reference Field series of models as agreed
