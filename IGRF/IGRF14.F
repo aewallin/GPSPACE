@@ -42,6 +42,10 @@ c     Feb 2020 (W. Brown, BGS):
 c     Correction of coefficient rounding for 2020 and 2020 SV values
 c     Nov 2024 (C. Beggan, BGS)
 c
+
+c comment out first part of original program
+#if 0
+
       IMPLICIT DOUBLE PRECISION (A-H,O-Z)
       CHARACTER*1 IA
       CHARACTER*11 TYPE
@@ -474,7 +478,7 @@ C
       RETURN
       END
 
-
+#endif
       subroutine igrf14syn (isv,date,itype,alt,colat,elong,x,y,z,f)
 c
 c     This is a synthesis routine for the 14th generation IGRF as agreed 
