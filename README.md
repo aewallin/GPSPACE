@@ -5,6 +5,7 @@ The original repository at https://github.com/CGS-GIS/GPSPACE seems incomplete. 
 * 2025-01 update to IGRF14.F from https://www.ncei.noaa.gov/products/international-geomagnetic-reference-field
 * 2025-01 update, this repo mostly based on https://github.com/demiangomez/GPSPACE
 * 2025-01, SVB files from https://github.com/lahayef/GPSPACE
+* 2026-03 update SVB files
 
 With these additions the gpspace.f code compiles with the command:
 
